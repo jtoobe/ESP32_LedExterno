@@ -20,8 +20,8 @@ void loop() {
   delay(1000);                       // espera un segundo (1000 milisegundos)
   digitalWrite(LED_BUILTIN, LOW);    // apago LED poniendo la salida en LOW
   delay(1000); 
-  digitalWrite(LedPin, HIGH);   // enciende el LED  (HIGH es el nivel de salida)
-  delay(1000); // espera un segundo (1000 milisegundos)
-  digitalWrite(LedPin, LOW);    // apago LED poniendo la salida en LOW
+  digitalWrite(LedPin, HIGH);       // enciende el LED  (HIGH es el nivel de salida)
+  delay(1000);                      // espera un segundo (1000 milisegundos)
+  digitalWrite(LedPin, LOW);        // apago LED poniendo la salida en LOW
   delay(1000);
 }
