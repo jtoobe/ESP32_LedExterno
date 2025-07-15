@@ -1,8 +1,9 @@
 /*
-2do programa para ESP32 
+Programa que prende y apaga un led conectado al pin 32 
 */
 
-
+// El pin positivo del led es la pata mas larga y va conectada al pin 32
+// En el negativo tiene una resistencia de 220 ohms para que no se queme 
 const int LedPin=32;
 
 
